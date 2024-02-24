@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sawarabi Mincho", "Cardo";
+}
+
+header {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+header .headline {
+  padding: 50px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 30px;
+  background-color: grey;
+}
+
+header .explanation {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  background-color: aquamarine;
+}
+
+.nav-list {
+  padding: 15px;
+  margin: 0 auto;
+  border-top: 1px solid #828484;
+  border-bottom: 1px solid #828484;
+  text-align: center;
+  line-height: 15px;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 15px 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+main .information {
+
+}
+
+main .about-contents {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  background-color: aquamarine;
+}
+/* ↑反映されない　なんで？ */
